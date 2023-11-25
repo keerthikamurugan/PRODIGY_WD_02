@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <!-- font awesome cdn link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <!-- custom css file -->
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<div class="sw">
+  <div id="stopwatch">00:00:00</div>
+
+  <div id="controls">
+    <button class="start"onclick="startStopwatch()">Start</button>
+    <button class="pause" onclick="pauseStopwatch()">Pause</button>
+    <button class="reset" onclick="resetStopwatch()">Reset</button>
+    <button class="lap" nclick="lapTime()">Lap</button>
+  </div>
+
+  <div id="laps"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
